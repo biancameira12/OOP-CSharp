@@ -19,6 +19,7 @@ namespace ACM.BL
             AddressList = new List<Address>();
         }
         public int CustomerId { get; private set; }
+        public int CustomerType { get; set; }
         public List<Address> AddressList { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }
