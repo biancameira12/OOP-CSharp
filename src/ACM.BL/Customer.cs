@@ -1,10 +1,25 @@
 using System;
+using System.Collections.Generic;
 
 namespace ACM.BL
 {
     public class Customer
     {
+        public Customer() : this(0)
+        {
+        }
+        public Customer(string name)
+        {
+            FirstName = name;
+            AddressList = new List<Address>();
+        }
+        public Customer(int customerId)
+        {
+            CustomerId = customerId;
+            AddressList = new List<Address>();
+        }
         public int CustomerId { get; private set; }
+        public List<Address> AddressList { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }
         public string FullName
@@ -23,12 +38,6 @@ namespace ACM.BL
             }
         }
         private string _lastName;
-
-        public Customer(string name)
-        {
-            FirstName = name;
-        }
-
         public string LastName
         {
             get
@@ -41,6 +50,13 @@ namespace ACM.BL
             }
         }
         public static int InstanceCount { get; set; }
+        public bool Validate()
+        {
+            var isValid = true;
+            if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
+            if (string.IsNullOrWhiteSpace(FirstName)) isValid = false;
+            return isValid;
+        }
 
     }
 }
