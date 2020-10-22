@@ -21,6 +21,8 @@ namespace ACM.BL
                 customer.LastName = "Baggins";
                 customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).ToList();
             }
+            Object myObject = new Object();
+            Console.WriteLine("Object: ", myObject.ToString());
             return customer;
         }
         public bool Save(Customer customer)

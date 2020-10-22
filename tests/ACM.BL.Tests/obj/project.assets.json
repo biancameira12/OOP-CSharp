@@ -905,11 +905,24 @@
       "acm.bl/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "acme.common": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/acm.bl.dll": {}
         },
         "runtime": {
           "bin/placeholder/acm.bl.dll": {}
+        }
+      },
+      "acme.common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/acme.common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/acme.common.dll": {}
         }
       }
     }
@@ -3509,12 +3522,18 @@
       "type": "project",
       "path": "../../src/acm.bl/acm.bl.csproj",
       "msbuildProject": "../../src/acm.bl/acm.bl.csproj"
+    },
+    "acme.common/1.0.0": {
+      "type": "project",
+      "path": "../../acme.common/acme.common.csproj",
+      "msbuildProject": "../../acme.common/acme.common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "acm.bl >= 1.0.0",
+      "acme.common >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -3544,6 +3563,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\Bianca\\Documents\\GitHub\\c#\\OOP_fundamentals_csharp\\acme.common\\acme.common.csproj": {
+              "projectPath": "C:\\Users\\Bianca\\Documents\\GitHub\\c#\\OOP_fundamentals_csharp\\acme.common\\acme.common.csproj"
+            },
             "C:\\Users\\Bianca\\Documents\\GitHub\\c#\\OOP_fundamentals_csharp\\src\\acm.bl\\acm.bl.csproj": {
               "projectPath": "C:\\Users\\Bianca\\Documents\\GitHub\\c#\\OOP_fundamentals_csharp\\src\\acm.bl\\acm.bl.csproj"
             }

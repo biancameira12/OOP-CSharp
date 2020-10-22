@@ -97,3 +97,6 @@ C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\o
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\obj\Debug\netcoreapp3.1\ACM.BL.Tests.dll
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\obj\Debug\netcoreapp3.1\ACM.BL.Tests.pdb
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\obj\Debug\netcoreapp3.1\ACM.BL.Tests.genruntimeconfig.cache
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\bin\Debug\netcoreapp3.1\acme.common.exe
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\bin\Debug\netcoreapp3.1\acme.common.dll
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\tests\ACM.BL.Tests\bin\Debug\netcoreapp3.1\acme.common.pdb

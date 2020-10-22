@@ -83,6 +83,38 @@ namespace tests
 
             Assert.Equal(expected.OrderDate, actual.OrderDate);
         }
+        [Fact]
+        public void SaveTestValid()
+        {
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = 18M,
+                ProductDescription = "Assorted Size Set of 4 Bright Yellow Mini Sunflowers",
+                ProductName = "Sunflowers",
+                HasChanges = true
+            };
+
+            var actual = productRepository.Save(updatedProduct);
+
+            Assert.True(actual);
+        }
+        [Fact]
+        public void SaveTestMissingPrice()
+        {
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = null,
+                ProductDescription = "Assorted Size Set of 4 Bright Yellow Mini Sunflowers",
+                ProductName = "Sunflowers",
+                HasChanges = true
+            };
+
+            var actual = productRepository.Save(updatedProduct);
+
+            Assert.True(!actual);
+        }
 
     }
 }

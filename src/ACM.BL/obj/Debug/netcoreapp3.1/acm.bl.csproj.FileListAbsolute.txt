@@ -11,3 +11,7 @@ C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\obj\Debug
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\obj\Debug\netcoreapp3.1\acm.bl.dll
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\obj\Debug\netcoreapp3.1\acm.bl.pdb
 C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\obj\Debug\netcoreapp3.1\acm.bl.genruntimeconfig.cache
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\bin\Debug\netcoreapp3.1\acme.common.exe
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\bin\Debug\netcoreapp3.1\acme.common.dll
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\bin\Debug\netcoreapp3.1\acme.common.pdb
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\src\acm.bl\obj\Debug\netcoreapp3.1\acm.bl.csproj.CopyComplete

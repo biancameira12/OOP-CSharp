@@ -1,0 +1,13 @@
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.exe
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.deps.json
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.runtimeconfig.json
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.runtimeconfig.dev.json
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.dll
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\bin\Debug\netcoreapp3.1\acme.common.pdb
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.AssemblyInfoInputs.cache
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.AssemblyInfo.cs
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.csproj.CoreCompileInputs.cache
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.dll
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.pdb
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.genruntimeconfig.cache
+C:\Users\Bianca\Documents\GitHub\c#\OOP_fundamentals_csharp\acme.common\obj\Debug\netcoreapp3.1\acme.common.csprojAssemblyReference.cache

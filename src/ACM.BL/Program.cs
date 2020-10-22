@@ -7,7 +7,8 @@ namespace ACM.BL
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var customer = new Customer("Hey");
+            var customer = new CustomerRepository();
+            customer.Retrieve(1);
         }
     }
 }

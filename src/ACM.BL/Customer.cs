@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public Customer() : this(0)
         {
@@ -51,7 +51,8 @@ namespace ACM.BL
             }
         }
         public static int InstanceCount { get; set; }
-        public bool Validate()
+        public override string ToString() => FullName;
+        public override bool Validate()
         {
             var isValid = true;
             if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
